@@ -1,32 +1,10 @@
 # Gutachten-Skill für Claude
 
 Ein [Claude Skill](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview), der
-Claude beibringt, zivilrechtliche Gutachten so zu schreiben, wie sie an deutschen Lehrstühlen
+Claude beibringt, zivilrechtliche Gutachten so zu schreiben, wie sie für den universitären Kontext
 erwartet werden: aus dem Sachverhalt entwickelt, streng im Gutachtenstil, mit konsistenten Weichen
 und ausschließlich geprüften Fundstellen. Dazu gehört ein kleines Prüfskript, das Stil- und
 Zitierfehler automatisch findet.
-
-## Entstehung
-
-Der Skill ist das Ergebnis eines realen Projekts.
-
-| Problem in den frühen Fassungen | Regel im Skill |
-|---|---|
-| Lösung war „im Urteilsstil“: Ergebnis vorweg, Begründung danach | Vierschritt mit Obersatz im Konjunktiv, Ergebnis erst am Ende; Skript erkennt typische Urteilsstil-Formeln |
-| Stichpunkte, fett gesetzte Laufüberschriften, unnummerierte Abschnitte | Reiner Fließtext, jede Überschrift nummeriert (A. → I. → 1. → a) → aa) → (1)) |
-| Argument des Berufungsgerichts mit der Revisionsentscheidung belegt, Randnummer passte nicht | Nur im Volltext gelesene Quellen zitieren, Argument genau der Quelle zuordnen, Randnummer am amtlichen Volltext prüfen |
-| Sätze wie „So hat auch der BGH entschieden“ | Begründung des Gerichts als eigenes Sachargument formulieren, Gericht nur in der Fußnote |
-| Fußnoten an Subsumtionssätzen | Fußnoten an Definition und Maßstab |
-| Prüfung von Normen, die der Sachverhalt nicht anlegt | Echo-Prinzip: nur prüfen, was der Sachverhalt anlegt, Bearbeitervermerke wörtlich beachten |
-| Endlose Korrekturschleifen mit mehreren Agenten machten den Text unstimmiger | Weichen vorab entscheiden, ein Autor schreibt in einem Zug, genau eine Korrektor-Lektüre |
-| Eigenmächtige Kürzungen | Kürzungsvorschläge mit Zeichenzahl zur Freigabe vorlegen |
-
-Die wichtigste Erkenntnis: **Gutachten scheitern an unstimmigen Weichen, nicht an Einzelfehlern.**
-Der Skill zwingt deshalb zu einem Arbeitsablauf, in dem die strittigen Entscheidungen in einem
-Weichen-Memo festgehalten werden, bevor ein Satz Gutachtentext entsteht.
-
-Alle Beispiele verwenden einen neutralen Lehrbuchfall und Platzhalter statt echter
-Fundstellen.
 
 ## Aufbau
 
