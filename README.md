@@ -8,11 +8,7 @@ Zitierfehler automatisch findet.
 
 ## Entstehung
 
-Der Skill ist das Ergebnis eines realen Projekts: Mit Claude Code habe ich die ausformulierte
-Musterlösung zu einer zivilrechtlichen Hausarbeit (großer Schein, rund 90.000 Zeichen, sieben
-Fragen) erstellt. Bis zur brauchbaren Fassung waren vier Versionen nötig. Die ersten drei
-scheiterten nicht an der Sprachfähigkeit des Modells, sondern an typischen Fehlern, die jeder kennt,
-der KI für juristische Texte einsetzt:
+Der Skill ist das Ergebnis eines realen Projekts.
 
 | Problem in den frühen Fassungen | Regel im Skill |
 |---|---|
@@ -29,8 +25,7 @@ Die wichtigste Erkenntnis: **Gutachten scheitern an unstimmigen Weichen, nicht a
 Der Skill zwingt deshalb zu einem Arbeitsablauf, in dem die strittigen Entscheidungen in einem
 Weichen-Memo festgehalten werden, bevor ein Satz Gutachtentext entsteht.
 
-Die Musterlösung selbst ist nicht Teil dieses Repositorys, weil der Fall für ein laufendes Semester
-gestellt ist. Alle Beispiele verwenden einen neutralen Lehrbuchfall und Platzhalter statt echter
+Alle Beispiele verwenden einen neutralen Lehrbuchfall und Platzhalter statt echter
 Fundstellen.
 
 ## Aufbau
